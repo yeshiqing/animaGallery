@@ -8,4 +8,4 @@
 ### 宇宙粒子
 [particles_in_universe](https://pageye123.github.io/animaGallery/particles_in_universe/index.html) 
 ### Git
-[Get Git Right](https://pageye124.github.io/animaGallery/Git.svg) 
+[Get Git Right](https://pageye123.github.io/animaGallery/Git.svg) 
