@@ -7,5 +7,5 @@
 ## 小精灵们
 ### 宇宙粒子
 [particles_in_universe](https://pageye123.github.io/animaGallery/particles_in_universe/index.html) 
-### Git
-[Get Git Right](https://pageye123.github.io/animaGallery/Git.svg) 
+### 多彩吉特
+[colorful Git](https://pageye123.github.io/animaGallery/Git.svg) 
