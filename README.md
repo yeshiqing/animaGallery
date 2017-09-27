@@ -9,3 +9,5 @@
 [particles_in_universe](https://pageye123.github.io/animaGallery/particles_in_universe/index.html) 
 ### 多彩吉特
 [colorful Git](https://pageye123.github.io/animaGallery/Git.svg) 
+### 电子英雄
+[electron_hero](https://pageye123.github.io/animaGallery/electron_hero/index.html)
