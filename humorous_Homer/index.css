@@ -1,0 +1,379 @@
+.center{
+  width:700px;
+  margin:auto;
+  text-align: center;
+}
+@import url(https://fonts.googleapis.com/css?family=Rock+Salt);
+body {
+  background-color: rgb(58, 119, 186);
+}
+
+.face {
+  display: inline-block;
+  vertical-align: middle;
+  margin:20px; 
+  width: 350px;
+  height:490px;
+}
+
+.head {
+  position: relative;
+  left: 80px;
+}
+
+.hair {
+  position: absolute;
+}
+
+.strand1,
+.strand2 {
+  position: absolute;
+  width: 80px;
+  height: 70px;
+  border-radius: 50%;
+  border-top: 2px solid black;
+  transform: rotate(-40deg);
+}
+
+.strand1 {
+  top: 15px;
+}
+
+.strand2 {
+  transform: rotate(-30deg);
+  left: 10px;
+}
+
+.forehead {
+  position: absolute;
+  top: 10px;
+  width: 170px;
+  height: 200px;
+  border-radius: 60%/50%;
+  transform: rotate(-18deg);
+  background-color: rgb(255, 217, 14);
+  border: 1px solid black;
+}
+
+.eyes {
+  position: absolute;
+  top: 110px;
+  left: 60px;
+}
+
+.left-eye {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  top: 5px;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.pupil {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.pupil1 {
+  left: 25px;
+  top: 40px;
+  animation: left-eye 3s linear 0s infinite;
+}
+
+.pupil2 {
+  left: 35px;
+  top: 40px;
+  animation: right-eye 3s linear 0s infinite;
+}
+
+.right-eye {
+  position: absolute;
+  left: 60px;
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.nose {
+  position: absolute;
+  width: 60px;
+  height: 32px;
+  background-color: rgb(255, 217, 14);
+  top: 175px;
+  left: 130px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.mouth {
+  position: absolute;
+  width: 115px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: rgb(205, 177, 111);
+  top: 207px;
+  left: 60px;
+  border: 1px solid black;
+}
+
+.face-cache1 {
+  top: 185px;
+  left: 30px;
+  position: absolute;
+  width: 140px;
+  height: 60px;
+  background-color: rgb(255, 217, 14);
+}
+
+.face-cache2 {
+  top: 165px;
+  left: 22px;
+  position: absolute;
+  width: 40px;
+  height: 60px;
+  background-color: rgb(255, 217, 14);
+  transform: rotate(-11deg);
+  border-left: 1px solid black;
+}
+
+.mouth-cache1 {
+  position: absolute;
+  width: 120px;
+  height: 60px;
+  background-color: rgb(205, 177, 111);
+  border-radius: 60%;
+  border-bottom: 1px solid black;
+  top: 20px;
+  left: 30px;
+  transform: rotate(-6deg);
+}
+
+.mouth-cache2 {
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  border-right: 1px solid black;
+  left: 130px;
+  top: 200px;
+  background-color: rgb(205, 177, 111);
+  border-top-right-radius: 70%;
+}
+
+.mouth-cache3 {
+  position: absolute;
+  width: 35px;
+  height: 48px;
+  background-color: rgb(205, 177, 111);
+  border-radius: 30%/10%;
+  top: 230px;
+  left: 165px;
+  transform: rotate(-140deg);
+  border-bottom: 1px solid black;
+}
+
+.mouth-cache4 {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: red;
+  background-color: rgb(205, 177, 111);
+  top: 260px;
+  left: 80px;
+}
+
+.mouth-cache5 {
+  position: absolute;
+  width: 20px;
+  height: 30px;
+  background-color: rgb(205, 177, 111);
+  top: 62px;
+  left: 98px;
+  border-radius: 50%;
+  border-right: 1px solid black;
+  transform: rotate(15deg);
+}
+
+.ear {
+  position: absolute;
+  width: 32px;
+  height: 37px;
+  top: 200px;
+  left: 10px;
+  border-radius: 50%;
+  background-color: rgb(255, 217, 14);
+  transform: rotate(10deg);
+  border: 1px solid black;
+}
+
+.face-cache3 {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  top: 210px;
+  left: 30px;
+  background-color: rgb(255, 217, 14);
+}
+
+.strand3 {
+  position: absolute;
+  top: 180px;
+  left: -20px;
+}
+
+.strand4 {
+  position: absolute;
+  top: 175px;
+  left: 0px;
+}
+
+.line1 {
+  position: absolute;
+  width: 45px;
+  height: 1px;
+  left: 0px;
+  top: 2px;
+  transform: rotate(-90deg);
+  background-color: black;
+}
+
+.line2 {
+  position: absolute;
+  width: 45px;
+  height: 1px;
+  left: 10px;
+  transform: rotate(-115deg);
+  background-color: black;
+}
+
+.neck {
+  position: absolute;
+  width: 125px;
+  height: 150px;
+  background-color: red;
+  top: 200px;
+  left: 28px;
+  transform: rotate(2deg);
+  background-color: rgb(255, 217, 14);
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.collar1 {
+  position: absolute;
+  width: 110px;
+  height: 60px;
+  background-color: white;
+  top: 330px;
+  left: 10px;
+  transform: rotate(15deg);
+  border-radius: 50%/10%;
+  border: 1px solid black;
+}
+
+.collar2 {
+  position: absolute;
+  width: 20px;
+  transform: rotate(-20deg);
+  height: 50px;
+  background-color: white;
+  top: 340px;
+  left: 150px;
+  border: 1px solid black;
+}
+
+.neck-cache1 {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: rgb(255, 217, 14);
+  top: 320px;
+  left: 27px;
+  border-radius: 50%/20%;
+  transform: rotate(15deg);
+  border-bottom: 1px solid black;
+}
+
+.neck-cache2 {
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  background-color: rgb(255, 217, 14);
+  top: 350px;
+  left: 100px;
+}
+
+@keyframes left-eye {
+  0% {
+    left: 25px;
+  }
+  5% {
+    left: 40px;
+  }
+  55% {
+    left: 40px;
+  }
+  60% {
+    left: 25px;
+  }
+}
+
+@keyframes right-eye {
+  0% {
+    left: 35px;
+  }
+  5% {
+    left: 50px;
+  }
+  55% {
+    left: 50px;
+  }
+  60% {
+    left: 35px;
+  }
+}
+
+.ear-details {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 8px;
+  left: 8px;
+  transform: rotate(10deg);
+  border-top-left-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-left: 1px solid black;
+}
+
+.ear-details2 {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-bottom-left-radius: 10%;
+  border-bottom-right-radius: 10%;
+  top: -3px;
+  border-bottom: 1px solid black;
+}
+
+.title {
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  top: 425px;
+  background-color: rgb(58, 119, 186);
+  border-top: 1px solid black;
+  font-family: 'Rock Salt', cursive;
+  text-align: center;
+  color: white;
+  padding-top: 5px;
+}

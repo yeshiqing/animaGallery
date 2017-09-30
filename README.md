@@ -11,3 +11,5 @@
 [colorful Git](https://pageye123.github.io/animaGallery/Git.svg) 
 ### 电子英雄
 [electron_hero](https://pageye123.github.io/animaGallery/electron_hero/index.html)
+### 幽默霍默
+[humorous_Homer](https://pageye123.github.io/animaGallery/humorous_Homer/index.html)
