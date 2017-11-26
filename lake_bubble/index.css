@@ -1,0 +1,379 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,button,textarea,p,blockquote,th,td {
+    padding: 0;
+    margin: 0;
+}
+
+.g-in {
+    width: 900px;
+    margin: 0 auto;
+    height: 366px;
+	position: relative;
+    overflow: hidden;
+}
+.g-bnb {
+    background-position: center 0;
+}
+
+.g-bna, .g-bnb, .g-bn .g-in {
+    height: 366px;
+}
+
+.g-bnb, .g-bd .g-in {
+    -webkit-animation: show 0.5s ease-out;
+    -moz-animation: show 0.5s ease-out;
+    -ms-animation: show 0.5s ease-out;
+    /* animation: show 0.5s ease-out; */
+}
+.g-bnb,.m-ban {
+    background: url(./img_bgBanner.jpg) no-repeat -9999px -9999px;
+}
+
+.m-ban h2,.m-ban .paobg,.m-ban .paoit i {
+    background: url(./img_bgBubble.png) no-repeat -9999px -9999px;
+}
+
+.m-list a h4,.m-case li a {
+    -webkit-transition: border-color 0.3s;
+    -moz-transition: border-color 0.3s;
+    -ms-transition: border-color 0.3s;
+    transition: border-color 0.3s;
+}
+
+.m-care .care li a {
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+@-webkit-keyframes paobg1 {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+@-moz-keyframes paobg1 {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+@-ms-keyframes paobg1 {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+@keyframes paobg1 {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 0 0;
+    }
+}
+
+@-webkit-keyframes paobg2 {
+    0% {
+        background-position: 0 -194px;
+    }
+
+    100% {
+        background-position: 0 -194px;
+    }
+}
+
+@-moz-keyframes paobg2 {
+    0% {
+        background-position: 0 -194px;
+    }
+
+    100% {
+        background-position: 0 -194px;
+    }
+}
+
+@-ms-keyframes paobg2 {
+    0% {
+        background-position: 0 -194px;
+    }
+
+    100% {
+        background-position: 0 -194px;
+    }
+}
+
+@keyframes paobg2 {
+    0% {
+        background-position: 0 -194px;
+    }
+
+    100% {
+        background-position: 0 -194px;
+    }
+}
+
+@-webkit-keyframes paoi {
+    0% {
+        top: 186px;
+    }
+
+    100% {
+        top: -56px;
+    }
+}
+
+@-moz-keyframes paoi {
+    0% {
+        top: 186px;
+    }
+
+    100% {
+        top: -56px;
+    }
+}
+
+@-ms-keyframes paoi {
+    0% {
+        top: 186px;
+    }
+
+    100% {
+        top: -56px;
+    }
+}
+
+@keyframes paoi {
+    0% {
+        top: 186px;
+    }
+
+    100% {
+        top: -56px;
+    }
+}
+
+@-webkit-keyframes show {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes show {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes show {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes show {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes enter {
+    0% {
+        -webkit-transform: translateX(50px);
+        opacity: 0;
+    }
+
+    100% {
+        -webkit-transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes enter {
+    0% {
+        -moz-transform: translateX(50px);
+        opacity: 0;
+    }
+
+    100% {
+        -moz-transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes enter {
+    0% {
+        -ms-transform: translateX(50px);
+        opacity: 0;
+    }
+
+    100% {
+        -ms-transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes enter {
+    0% {
+        transform: translateX(50px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.m-ban {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 991px;
+    height: 100%;
+    background-position: -93px 0;
+}
+
+.m-ban h2,.m-ban .pao {
+    position: absolute;
+    top: 75px;
+    left: 171px;
+    width: 487px;
+    height: 186px;
+    overflow: hidden;
+}
+
+.m-ban h2 {
+    text-indent: -2000px;
+    -webkit-animation: paobg1 1s infinite;
+    -moz-animation: paobg1 1s infinite;
+    -ms-animation: paobg1 1s infinite;
+    animation: paobg1 1s infinite;
+}
+
+.m-ban .paobg,.m-ban .paoit {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.m-ban .paobg {
+    z-index: 5;
+    -webkit-animation: paobg2 1s infinite;
+    -moz-animation: paobg2 1s infinite;
+    -ms-animation: paobg2 1s infinite;
+    animation: paobg2 1s infinite;
+}
+
+.m-ban .paoit i {
+    position: absolute;
+    z-index: 3;
+    top: 100%;
+    width: 53px;
+    height: 56px;
+    overflow: hidden;
+    text-indent: -2000px;
+    background-position: -507px 0;
+    -webkit-animation: paoi 7s 2s infinite;
+    -moz-animation: paoi 7s 2s infinite;
+    -ms-animation: paoi 7s 2s infinite;
+    animation: paoi 7s 2s infinite;
+}
+
+.m-ban .paoit i:nth-child(1) {
+    left: 25px;
+    -webkit-animation-delay: 3s;
+    -moz-animation-delay: 3s;
+    -ms-animation-delay: 3s;
+    animation-delay: 3s;
+}
+
+.m-ban .paoit i:nth-child(2) {
+    left: 85px;
+    -webkit-animation-duration: 6s;
+    -moz-animation-duration: 6s;
+    -ms-animation-duration: 6s;
+    animation-duration: 6s;
+    -webkit-animation-delay: 6s;
+    -moz-animation-delay: 6s;
+    -ms-animation-delay: 6s;
+    animation-delay: 6s;
+    background-position: -507px -64px;
+}
+
+.m-ban .paoit i:nth-child(3) {
+    left: 148px;
+    -webkit-animation-duration: 5s;
+    -moz-animation-duration: 5s;
+    -ms-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-delay: 7s;
+    -moz-animation-delay: 7s;
+    -ms-animation-delay: 7s;
+    animation-delay: 7s;
+}
+
+.m-ban .paoit i:nth-child(4) {
+    left: 190px;
+    -webkit-animation-delay: 4s;
+    -moz-animation-delay: 4s;
+    -ms-animation-delay: 4s;
+    animation-delay: 4s;
+    background-position: -507px -140px;
+}
+
+.m-ban .paoit i:nth-child(5) {
+    left: 285px;
+    -webkit-animation-duration: 5s;
+    -moz-animation-duration: 5s;
+    -ms-animation-duration: 5s;
+    animation-duration: 5s;
+    -webkit-animation-delay: 8s;
+    -moz-animation-delay: 8s;
+    -ms-animation-delay: 8s;
+    animation-delay: 8s;
+}
+
+.m-ban .paoit i:nth-child(6) {
+    left: 350px;
+    background-position: -507px -64px;
+}
+
+.m-ban .paoit i:nth-child(7) {
+    left: 400px;
+    -webkit-animation-delay: 5s;
+    -moz-animation-delay: 5s;
+    -ms-animation-delay: 5s;
+    animation-delay: 5s;
+}

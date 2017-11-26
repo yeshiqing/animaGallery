@@ -13,3 +13,6 @@
 [electron_hero](https://pageye123.github.io/animaGallery/electron_hero/index.html)
 ### 幽默霍默
 [humorous_Homer](https://pageye123.github.io/animaGallery/humorous_Homer/index.html)
+### 湖中气泡
+[lake_bubble](https://pageye123.github.io/animaGallery/lake_bubble/index.html)
+
